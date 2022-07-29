@@ -1,0 +1,24 @@
+body {
+    color: #150544 !important;
+}
+
+a.navbar-brand {
+    color: #150544;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+a.nav-link {
+    color: #5A6772;
+}
+
+a.nav-link.active {
+    color: #150544 !important;
+    font-weight: 500;
+}
+
+li.nav-item button.btn-primary {
+    background-color: #150544 !important;
+    border: 1px solid #150544;
+    width: 100px;
+}
