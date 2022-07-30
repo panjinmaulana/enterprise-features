@@ -22,3 +22,90 @@ li.nav-item button.btn-primary {
     border: 1px solid #150544;
     width: 100px;
 }
+
+.friendly-packages {
+    height: 550px;
+    padding: 100px 0;
+}
+
+.friendly-packages h1 {
+    font-size: 48px;
+    font-weight: bold
+}
+
+.pricing .card {
+    border-radius: 8px;
+    border: none;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.05);
+}
+
+.pricing .card-lifetime {
+    border: 2px solid #150544;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing .card p {
+    width: 90%;
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-lifetime .card-badge {
+    background-color: #150544;
+    border-radius: 6px 6px 0 0;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 8px;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+    background-color: #6552FF;
+    color: white;
+}
+
+.pricing .btn-lifetime {
+    background-color: #150544;
+}
+
+.notes h6 a {
+    color: #150544;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .card:hover .btn {
+        opacity: 0.85;
+    }
+}
