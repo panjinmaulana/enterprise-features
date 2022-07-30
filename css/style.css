@@ -26,6 +26,7 @@ li.nav-item button.btn {
     border-radius: .5rem;
     width: 6.25rem;
     color: white;
+    font-size: 14px !important;
 }
 
 .enterprise-features {
@@ -35,8 +36,8 @@ li.nav-item button.btn {
     background-size: cover;
 }
 
-.enterprise-features h1,
-.friendly-packages h1 {
+.enterprise-features h2,
+.friendly-packages h2 {
     font-size: 3rem;
     font-weight: bold;
 }
@@ -102,6 +103,14 @@ li.nav-item button.btn {
     background-color: #150544;
 }
 
+.friendly-packages .card:hover {
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.friendly-packages .card:hover .btn {
+    opacity: 0.85;
+}
+
 .friendly-packages .notes {
     padding: 5rem 0;
 }
@@ -126,17 +135,13 @@ li.nav-item button.btn {
 }
 
 .testimoni .qoute {
-    height: 8.75rem;
+    height: 7rem;
 }
 
 /* media query */
-@media (min-width: 992px) {
-    .friendly-packages .card:hover {
-        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-    }
-
-    .friendly-packages .card:hover .btn {
-        opacity: 0.85;
+@media (max-width: 992px) {
+    .testimoni .qoute img {
+        width: 8%;
     }
 }
 
@@ -145,8 +150,8 @@ li.nav-item button.btn {
         padding: 2.5rem 0;
     }
 
-    .enterprise-features h1,
-    .friendly-packages h1 {
+    .enterprise-features h2,
+    .friendly-packages h2 {
         font-size: 2.5rem;
         font-weight: bold;
     }
