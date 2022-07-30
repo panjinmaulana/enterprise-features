@@ -23,14 +23,17 @@ li.nav-item button.btn-primary {
     width: 100px;
 }
 
-.friendly-packages {
-    /* height: 550px;
-    padding: 100px 0; */
+.enterprise-features {
+    padding: 100px 0;
+    background-image: url('/assets/images/wave-line-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.enterprise-features h1,
 .friendly-packages h1 {
     font-size: 48px;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .pricing .card {
@@ -113,5 +116,15 @@ li.nav-item button.btn-primary {
 
     .pricing .card:hover .btn {
         opacity: 0.85;
+    }
+}
+
+@media (max-width: 576px) {
+    .enterprise-features {
+        padding: 40px 0;
+    }
+
+    .card-quarter {
+        margin-bottom: 50px;
     }
 }
