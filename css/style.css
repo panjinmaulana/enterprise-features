@@ -24,8 +24,8 @@ li.nav-item button.btn-primary {
 }
 
 .friendly-packages {
-    height: 550px;
-    padding: 100px 0;
+    /* height: 550px;
+    padding: 100px 0; */
 }
 
 .friendly-packages h1 {
@@ -96,6 +96,12 @@ li.nav-item button.btn-primary {
 
 .notes h6 a {
     color: #150544;
+}
+
+.testimoni {
+    background-image: url('/assets/images/wave-line-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Hover Effects on Card */
