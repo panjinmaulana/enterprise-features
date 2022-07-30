@@ -3,6 +3,7 @@
 body {
     color: #150544 !important;
     font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
 }
 
 a.navbar-brand {
@@ -48,17 +49,20 @@ li.nav-item button.btn {
 }
 
 .friendly-packages .card-lifetime {
-    border: 3px solid #150544;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .friendly-packages .card-lifetime .card-badge {
+    border: 3px solid #150544;
+    border-radius: .5rem .5rem 0 0;
     background-color: #150544;
     width: 100%;
 }
 
-.friendly-packages .card-lifetime .card-badge p {
-    width: 100%;
+.friendly-packages .card-lifetime .card-body {
+    border: 3px solid #150544;
+    border-radius: 0 0 .5rem .5rem;
+    margin-top: -18px;
 }
 
 .friendly-packages .card-price {
