@@ -54,6 +54,7 @@ li.nav-item button.btn {
 
 .friendly-packages .card-lifetime .card-badge {
     background-color: #150544;
+    border: 3px solid red;
 }
 
 .friendly-packages .card-lifetime .card-badge p {
@@ -156,6 +157,10 @@ li.nav-item button.btn {
 }
 
 @media (max-width: 576px) {
+    .testimoni {
+        height: 36rem;
+    }
+
     .testimoni .profile-picture img {
         margin-top: 5.6rem !important;
     }
